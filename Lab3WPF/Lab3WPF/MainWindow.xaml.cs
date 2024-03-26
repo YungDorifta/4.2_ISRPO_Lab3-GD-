@@ -23,6 +23,19 @@ namespace Lab3WPF
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void FormDocument(object sender, RoutedEventArgs e)
+        {
+            var dialog = new Microsoft.Win32.SaveFileDialog();
+            bool? result = dialog.ShowDialog();
+            if (result == true)
+            {
+                string filename = dialog.FileName;
+            }
+            
+            //Docwork.SetWord(null);
         }
     }
 }

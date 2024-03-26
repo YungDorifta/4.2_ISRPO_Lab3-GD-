@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab3WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="339.42" Width="340" MinWidth="340">
     <Grid>
-        
+        <Label Content="Заказ №" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="24" Width="57"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="72,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="70"/>
+
+        <Label Content="Дата:" HorizontalAlignment="Left" Margin="152,10,0,0" VerticalAlignment="Top" Height="24" Width="40"/>
+        <DatePicker HorizontalAlignment="Left" Margin="192,10,0,0" VerticalAlignment="Top" Width="123"/>
+
+        <Label Content="Поставщик" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Height="24" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="115,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+
+        <Label Content="Покупатель" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Height="24" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="115,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+
+        <DataGrid HorizontalAlignment="Left" Margin="15,97,0,97" Width="300">
+
+        </DataGrid>
+
+        <Label Content="Итого: " HorizontalAlignment="Left" Margin="15,0,0,68" VerticalAlignment="Bottom" Width="300" Height="24"/>
+
+        <Label Content="Сохранить в папку: " HorizontalAlignment="Left" Margin="15,0,0,39" VerticalAlignment="Bottom" Width="115" Height="24"/>
+
+        <Button Content="Сформировать документ" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10,0,10,10" Height="24" Width="302" Click="FormDocument"/>
+
     </Grid>
 </Window>

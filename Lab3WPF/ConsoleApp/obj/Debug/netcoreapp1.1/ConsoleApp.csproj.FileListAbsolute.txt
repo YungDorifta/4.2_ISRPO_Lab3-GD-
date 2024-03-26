@@ -1,0 +1,6 @@
+H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.deps.json
+H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.runtimeconfig.json
+H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.runtimeconfig.dev.json
+H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.csprojAssemblyReference.cache
+H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.csproj.CoreCompileInputs.cache
+H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.AssemblyInfo.cs
