@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,10 +21,14 @@ namespace Lab3WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        public ObservableCollection <ProductInfo> Data { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
-            
+            Data = new ObservableCollection<ProductInfo>();
+            TableBox.ItemsSource = Data;
+            Data.Add(new ProductInfo() { Id = 1, Product = "Каша", Count = 3, Price = 30 });
         }
 
         private void FormDocument(object sender, RoutedEventArgs e)
@@ -33,9 +38,12 @@ namespace Lab3WPF
             if (result == true)
             {
                 string filename = dialog.FileName;
+                int ZakazNum = 0;
+                Int32.TryParse(NumBox.Text, out ZakazNum);
+                DateTime ZakazDate = DateBox.DisplayDate;
+                if (!String.IsNullOrEmpty(DateBox.Text)) DateTime.TryParse(DateBox.Text, out ZakazDate);
+                Docwork.SetWord(filename, PostavBox.Text, PokupBox.Text, Docwork.findSummary(Docwork.defaultShop), ZakazNum, ZakazDate, Docwork.defaultShop);
             }
-            
-            //Docwork.SetWord(null);
         }
     }
 }
