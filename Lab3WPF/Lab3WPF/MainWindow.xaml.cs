@@ -42,8 +42,20 @@ namespace Lab3WPF
                 Int32.TryParse(NumBox.Text, out ZakazNum);
                 DateTime ZakazDate = DateBox.DisplayDate;
                 if (!String.IsNullOrEmpty(DateBox.Text)) DateTime.TryParse(DateBox.Text, out ZakazDate);
-                Docwork.SetWord(filename, PostavBox.Text, PokupBox.Text, Docwork.findSummary(Docwork.defaultShop), ZakazNum, ZakazDate, Docwork.defaultShop);
+
+                foreach (ProductInfo item in Data)
+                {
+                    if (item.Id == 0) item.Id = Data.IndexOf(item) + 1;
+                }
+
+                Docwork.SetWord(filename, PostavBox.Text, PokupBox.Text, Docwork.findSummary(Data), ZakazNum, ZakazDate, Data);
             }
+        }
+        
+        private void TableBox_SelectedCellsChanged(object sender, SelectedCellsChangedEventArgs e)
+        {
+            var AllBinded = TableBox.Items.OfType<Object>().ToList();
+            SumBox.Content = "Итого: " + Docwork.findSummary(Data).ToString();
         }
     }
 }

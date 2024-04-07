@@ -19,12 +19,15 @@
         <Label Content="Покупатель" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Height="24" Width="100"/>
         <TextBox x:Name="PokupBox" HorizontalAlignment="Left" Height="24" Margin="115,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
 
-        <DataGrid x:Name="TableBox" HorizontalAlignment="Left" Margin="15,97,0,68" Width="300" AutoGenerateColumns="false">
+        <DataGrid x:Name="TableBox" HorizontalAlignment="Left" Margin="15,97,0,68" Width="300" 
+                  AutoGenerateColumns="false" SelectedCellsChanged="TableBox_SelectedCellsChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Продукт" Width="175" 
                              Binding="{Binding Path=Product}"></DataGridTextColumn>
-                <DataGridTextColumn Header="Цена" Width="175" 
+                <DataGridTextColumn Header="Цена" Width="50" 
                              Binding="{Binding Path=Price}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Кол-во" Width="50" 
+                             Binding="{Binding Path=Count}"></DataGridTextColumn>
             </DataGrid.Columns>
 
         </DataGrid>

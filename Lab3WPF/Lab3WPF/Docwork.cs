@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
 using Word = Microsoft.Office.Interop.Word;
 using Outlook = Microsoft.Office.Interop.Outlook;
+using System.Collections.ObjectModel;
 
 //Сделано: все параметры накладной передаются в метод
 //Сделано: выбор папки и имени файла
-//Сделать: дата при отсутствии выставляет сегодняшнюю
-
-//Сделать: ввод данных о продуктах вручную
+//Сделано: дата при отсутствии выставляет сегодняшнюю
+//Сделано: ввод данных о продуктах вручную
 
 
 
@@ -20,7 +20,7 @@ namespace Lab3WPF
 {
     public class Docwork
     {
-        public static List<ProductInfo> defaultShop = new List<ProductInfo>(){
+        public static ObservableCollection<ProductInfo> defaultShop = new ObservableCollection<ProductInfo>(){
             new ProductInfo()
         {
             Id = 1,
@@ -51,7 +51,7 @@ namespace Lab3WPF
               }
     };
 
-        public static double findSummary(List<ProductInfo> Shop)
+        public static double findSummary(ObservableCollection<ProductInfo> Shop)
         {
             double sum = 0;
             foreach (ProductInfo item in Shop)
@@ -61,7 +61,7 @@ namespace Lab3WPF
             return sum;
         }
 
-        public static void SetWord(string argFilePath, string argPostavshic, string argPokupatel, double argSummary, int argZakazNum, DateTime argData, List<ProductInfo> argProducts)
+        public static void SetWord(string argFilePath, string argPostavshic, string argPokupatel, double argSummary, int argZakazNum, DateTime argData, ObservableCollection<ProductInfo> argProducts)
         {
             // создаем приложение ворд
             Word.Application winword = new Word.Application();
@@ -101,44 +101,7 @@ namespace Lab3WPF
             customerPar.Range.Font.Name = "Times new roman";
             customerPar.Range.Font.Size = 14;
             customerPar.Range.InsertParagraphAfter();
-
-            /*
-            // формируем таблицу
-            // количество колонок - 4
-            // количество строк - nRows
-            List<ProductInfo> Shop = new List<ProductInfo>()
-            {
-              new ProductInfo()
-              {
-                Id = 1,
-                Product = "Апельсины",
-                Count = 50,
-                Price = 120.5,
-              },
-              new ProductInfo()
-              {
-                Id = 1,
-                Product = "Бананы",
-                Count = 130,
-                Price = 100.5,
-              },
-              new ProductInfo()
-              {
-                Id = 1,
-                Product = "Помидоры",
-                Count = 120,
-                Price = 150.5,
-              },
-              new ProductInfo()
-              {
-                Id = 1,
-                Product = "Огурцы",
-                Count = 150,
-                Price = 140.5,
-              }
-            };
-            */
-
+            
             // кол-во строк
             int nRows = argProducts.Count;
 

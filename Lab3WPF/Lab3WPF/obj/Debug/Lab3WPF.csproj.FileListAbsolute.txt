@@ -18,3 +18,23 @@ H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\
 H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.exe
 H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.pdb
 H:\ИСРПО\Лабы\2 семестр\!-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.csprojAssemblyReference.cache
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\bin\Debug\Lab3WPF.exe.config
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\bin\Debug\Lab3WPF.exe
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\bin\Debug\Lab3WPF.pdb
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.csprojAssemblyReference.cache
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\MainWindow.g.cs
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\App.g.cs
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF_MarkupCompile.cache
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF_MarkupCompile.lref
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\MainWindow.baml
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.g.resources
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.Properties.Resources.resources
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.csproj.GenerateResource.cache
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.csproj.CoreCompileInputs.cache
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.csproj.CopyComplete
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.exe
+D:\_ALL\College\4 course\2 semester\ИСРПО\-Лаб3(GD)\Lab3WPF\Lab3WPF\obj\Debug\Lab3WPF.pdb
